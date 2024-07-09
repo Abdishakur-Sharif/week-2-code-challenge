@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHOPPING LIST</title>
+    <script src="https://kit.fontawesome.com/07e5a93cf6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main-content">
+      <h1>Shopping List</h1>
+      <form action="" id="create-shopping-input" method="POST">
+        <input type="text" id="new_item" placeholder="ADD NEW ITEM" />
+        <button id="add_item" onclick="addItem()">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </button>
+        
+        
+      </form>
 
+      <div id="list">
+        <h2>My Shopping List</h2>
+        <ul id="shop_list"></ul>
+      </div>
+      <button id="clear_list" onclick="clearList()">Clear List</button>
+      <script src="index.js"></script>
+    </div>
+  </body>
+</html>

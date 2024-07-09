@@ -1,1 +1,78 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #f4f4f4;
+    justify-content: center;
+}
+#main-content{
+    width: 400px;
+    height: 400px;
+    padding: 30px;
 
+}
+h1{
+    text-align: center;
+    margin-bottom: 35px;
+}
+#new_item{
+    flex: 1;
+    outline: none;
+    padding: 10px 10px 10px 30px;
+    margin-bottom: 10px;
+
+}
+#add_item{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    background: white;
+    color: black;
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+}
+#clear_list{
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(247, 9, 9);
+    color: aliceblue;
+    
+}
+h2{
+    margin-bottom: 10px;
+}
+
+#shop_list li {
+font-size: 20px;
+list-style: square;
+}
+
+
+.purchased{
+    text-decoration: line-through;
+    color: gray;
+    margin-left: 10px;
+    
+}
+.purchased button {
+    background-color: #dc3545;
+
+}
+
+#shop_list{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
